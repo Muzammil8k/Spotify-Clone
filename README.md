@@ -1,2 +1,2 @@
 # Spotify-Clone
-Spotify clone using pure html &amp; css
+This is a simle spotify clone using pure html &amp; css only.
