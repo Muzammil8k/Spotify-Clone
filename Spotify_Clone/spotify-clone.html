@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="spotify-clone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-left">
+                <a href="#" ><img src="./assets/logo-white.png" class="header-logo"></a>
+            </div>
+            <div class="header-mid">
+                <div class="mid-left">
+                    <a href="#" class="home-icon-head"><i class="fa-solid fa-house"></i></a>
+                </div>
+                <div class="mid-right">
+                    <div class="search-bar" >
+                        <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
+                        <input type="search" id="search" class="search-input" placeholder="What do you want to play?">
+                    </div>
+                </div>  
+            </div>
+            <div class="header-right">
+                <div class="premium">
+                    <a href="#" class="link">Premium</a>
+                </div>
+                <div class="support">
+                    <a href="#" class="link">Support</a>
+                </div>
+                <div class="download">
+                    <a href="#" class="link">Download</a>
+                </div>
+                <div class="bar">|</div>
+                <div class="install">
+                    <a href="#" class="link" id="install-app"><i class="fa-regular fa-circle-down" id="download-icon"></i>Install App</a>
+                </div>
+                <div class="signup">
+                    <a href="#" class="link" id="signup">Signup</a>
+                </div>
+                <div class="login">
+                    <button class="badge">Log in</button>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="top">
+                <div class="lib-icon">
+                    <a href="#" class="link-sidebar"><img src="./assets/library_icon.png"></i>Your Library</a>
+                </div>
+                <div class="plus">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+            <div class="mid">
+                <div class="lib-card">
+                    <div class="para">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                    </div>
+                    <div class="bttn">
+                        <button class="lib-badge">Create Playlist</button>
+                    </div>
+                    
+                </div>
+                <div class="lib-card">
+                    <div class="para">
+                        <p class="box-p1">Let's find some podcast to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                    </div>
+                    <div class="bttn">
+                        <button class="lib-badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="contact">
+                    <a href="#" class="sidebar-footer-links">Legal</a>
+                    <a href="#" class="sidebar-footer-links">Safety & Privacy Center</a>
+                    <a href="#" class="sidebar-footer-links">Privacy Policy</a>
+                    <a href="#" class="sidebar-footer-links">Cookies</a>
+                    <a href="#" class="sidebar-footer-links">About Ads</a>
+                    <a href="#" class="sidebar-footer-links">Accessibility</a>
+                </div>
+                <div class="language">
+                    <div class="lng-badge">
+                        <i class="fa-solid fa-globe"></i>
+                        <h5>English</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="artists">
+                <div class="head">
+                    <a href="#" class="title">Popular artists</a>
+                    <a href="#" class="showall">Show all</a>
+                </div>
+                <div class="playlist">
+
+                    <div class="card dp">
+                        <img src="./assets/image1.jpeg">   
+                        <div class="card-title">
+                            <a href="#">Pritam</a>
+                        </div>
+                        <div class="singers dp-artist">
+                            <a href="#">Artist</a>
+                        </div>
+                    </div>
+
+                    <div class="card dp">
+                        <img src="./assets/image2.jpg">   
+                        <div class="card-title">
+                            <a href="#">Atif Aslam</a>
+                        </div>
+                        <div class="singers dp-artist">
+                            <a href="#">Artist</a>
+                        </div>
+                    </div>
+
+                    <div class="card dp">
+                        <img src="./assets/image3.jpg">   
+                        <div class="card-title">
+                            <a href="#">Anuv Jain</a>
+                        </div>
+                        <div class="singers dp-artist">
+                            <a href="#">Artist</a>
+                        </div>
+                    </div>
+
+                    <div class="card dp">
+                        <img src="./assets/image4.jpg">   
+                        <div class="card-title">
+                            <a href="#">Arijit Singh</a>
+                        </div>
+                        <div class="singers dp-artist">
+                            <a href="#">Artist</a>
+                        </div>
+                    </div>
+
+                    <div class="card dp">
+                        <img src="./assets/image5.jpeg">   
+                        <div class="card-title">
+                            <a href="#">Karan Aujla</a>
+                        </div>
+                        <div class="singers dp-artist">
+                            <a href="#">Artist</a>
+                        </div>
+                    </div>
+
+                    <div class="card dp">
+                        <img src="./assets/image6.jpeg">   
+                        <div class="card-title">
+                            <a href="#">Nusrat Fateh Ali Khan</a>
+                        </div>
+                        <div class="singers dp-artist">
+                            <a href="#">Artist</a>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+
+            <div class="songs">
+                <div class="head">
+                    <a href="#" class="title">Popular albums and singles</a>
+                    <a href="#" class="showall">Show all</a>
+                </div>
+                <div class="playlist">
+
+                    <div class="card">
+                        <img src="./assets/image7.jpeg">   
+                        <div class="card-title">
+                            <a href="#">My Terrible Mind</a>
+                        </div>
+                        <div class="singers">
+                            <a href="#">Talha Anjum</a><span style="opacity: 0.7;">,</span>
+                            <a href="#"> Umair</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/image8.jpeg">   
+                        <div class="card-title">
+                            <a href="#">Sicario</a>
+                        </div>
+                        <div class="singers">
+                            <a href="#">Shubh</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/image9.jpeg">   
+                        <div class="card-title">
+                            <a href="#">Afsos</a>
+                        </div>
+                        <div class="singers">
+                            <a href="#">Anuv Jain</a><span style="opacity: 0.7;">,</span>
+                            <a href="#"> Ap Dhillon</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/image10.jpeg">   
+                        <div class="card-title">
+                            <a href="#">Safar</a>
+                        </div>
+                        <div class="singers">
+                            <a href="#">Bayaan</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/image11.jpeg">   
+                        <div class="card-title">
+                            <a href="#">Jhol</a>
+                        </div>
+                        <div class="singers">
+                            <a href="#">Maanu</a><span style="opacity: 0.7;">,</span>
+                            <a href="#"> Annural Khalid</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/image12.jpeg">   
+                        <div class="card-title">
+                            <a href="#">Glory</a>
+                        </div>
+                        <div class="singers">
+                            <a href="#">Yo YO Honey Singh</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="songs">
+                <div class="head">
+                    <a href="#" class="title">Featured Charts</a>
+                    <a href="#" class="showall">Show all</a>
+                </div>
+                <div class="playlist">
+
+                    <div class="card">
+                        <img src="./assets/image13.jpg">   
+                        <div class="singers dp-artist">
+                            <a href="#">Your weekly update of the most played...</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/image14.jpg">   
+                        <div class="singers dp-artist">
+                            <a href="#">Your weekly update of the most played...</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/image15.jpg">   
+                        <div class="singers dp-artist">
+                            <a href="#">Your daily update of the most played...</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/image16.jpg">   
+                        <div class="singers dp-artist">
+                            <a href="#">Your daily update of the most played...</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/image17.jpg">   
+                        <div class="singers dp-artist">
+                            <a href="#">Your daily update of the most viral tracks...</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/image18.jpg">   
+                        <div class="singers dp-artist">
+                            <a href="#">Your daily update of the most viral tracks...</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="main-footer">
+
+                <div class="main-footer-top">
+                    <div class="main-footer-links">
+                        <div class="company">
+                            <p>Company</p>
+                            <div class="foot-link"><a href="#">About</a></div>
+                            <div class="foot-link"><a href="#">Jobs</a></div>
+                            <div class="foot-link"><a href="#">For the Record</a></div>
+                        </div>
+                        <div class="communities">
+                            <p>Communities</p>
+                            <div class="foot-link"><a href="#">For Artists</a></div>
+                            <div class="foot-link"><a href="#">For Developers</a></div>
+                            <div class="foot-link"><a href="#">Advertising</a></div>
+                            <div class="foot-link"><a href="#">Investors</a></div>
+                            <div class="foot-link"><a href="#">Vendors</a></div>
+                        </div>
+                        <div class="useful-links">
+                            <p>Useful Links</p>
+                            <div class="foot-link"><a href="#">Support</a></div>
+                            <div class="foot-link"><a href="#">Free Mobie App</a></div>
+                        </div>
+                        <div class="spotify-plans">
+                            <p>Spotify Plans</p>
+                            <div class="foot-link"><a href="#">Premium Individual</a></div>
+                            <div class="foot-link"><a href="#">Premium Duo</a></div>
+                            <div class="foot-link"><a href="#">Premium Family</a></div>
+                            <div class="foot-link"><a href="#">Premium Student</a></div>
+                            <div class="foot-link"><a href="#">Spotify Free</a></div>
+                        </div>
+                    </div> 
+                    <div class="social-media">
+                        <div class="insta">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div class="twit">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="faceb">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-footer-mid"></div>
+
+                <div class="main-footer-end">
+                    <i class="fa-regular fa-copyright"></i>
+                    <p>2025 Spotify AB</p>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="footer">
+            <div class="footer-para">
+                <p >Preview of Spotify <span><br>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</span></p>
+                
+            </div>
+            <div class="login">
+                <button class="foter-badge">Sign up free</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+    
